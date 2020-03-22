@@ -19,5 +19,8 @@ class EditNotepadActivity : AppCompatActivity() {
                 .setAction("Action", null).show()
         }
     }
+    companion object {
+        const val EXTRA_NOTE = "EXTRA_NOTE"
+    }
 
 }

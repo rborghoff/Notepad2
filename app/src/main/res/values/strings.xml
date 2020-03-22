@@ -7,7 +7,7 @@
     <string name="next">Next</string>
     <string name="previous">Previous</string>
     <string name="title">My Personal Notepad</string>
-    <string name="updated">Last updated: </string>
+    <string name="updated">Last updated: %1S </string>
     <string name="edit_notepad_text">Edit Notepad</string>
     <string name="title_activity_edit_notepad">EditNotepadActivity</string>
 

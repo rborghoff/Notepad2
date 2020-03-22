@@ -26,7 +26,7 @@
         android:text="@string/title"
         android:textAppearance="@style/TextAppearance.AppCompat.Display1"
         android:textColor="#2F6A31"
-        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintBottom_toTopOf="@+id/tvDate"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
@@ -34,7 +34,7 @@
         app:layout_constraintVertical_bias="0.0" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/tvDate"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginTop="52dp"
@@ -44,7 +44,7 @@
         app:layout_constraintTop_toTopOf="@+id/nav_host_fragment" />
 
     <TextView
-        android:id="@+id/textView3"
+        android:id="@+id/tvText"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="No notes"
@@ -52,7 +52,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/nav_host_fragment"
-        app:layout_constraintTop_toTopOf="@+id/textView2"
+        app:layout_constraintTop_toTopOf="@+id/tvDate"
         app:layout_constraintVertical_bias="0.028" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
