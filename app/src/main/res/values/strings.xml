@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Notepad2</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="title">My Personal Notepad</string>
+    <string name="updated">Last updated: </string>
+    <string name="edit_notepad_text">Edit Notepad</string>
+    <string name="title_activity_edit_notepad">EditNotepadActivity</string>
+
+
+</resources>
