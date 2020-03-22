@@ -25,10 +25,6 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         setSupportActionBar(toolbar)
 
-        fab.setOnClickListener { view ->
-            Snackbar.make(view, "Replace with your own action", Snackbar.LENGTH_LONG)
-                    .setAction("Action", null).show()
-        }
         initViews()
         initViewModel()
     }
@@ -61,6 +57,7 @@ class MainActivity : AppCompatActivity() {
 
         mainActivityViewModel.note.observe(this, Observer { note ->
             if(note != null){
+                tvTitle.text= note.title
                 val sdf = SimpleDateFormat("dd/MM/yy HH:mm").format(note.lastUpdated)
                 tvDate.text = getString(R.string.updated, sdf.toString())
                 tvText.text = note.text
